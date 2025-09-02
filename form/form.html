@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel ="stylesheet" href="form.css">
+</head>
+<body>
+    
+
+    <div class="container">
+     <h2>registration form</h2>
+     <form>
+        <label for="name">
+            full name
+        </label>
+        <input type="text" id="name" placeholder="enter your name" required>
+
+         <label for="email">
+           email
+        </label>
+        <input type="mail" id="mail" placeholder="enter your email" required>
+
+         <label for="password">
+            password
+        </label>
+        <input type="password" id="password" placeholder="enter your password" required>
+        <!-- gender in radio button form -->
+         <label for="gender">
+            gender
+        </label>
+        <div class="radio">
+<label>
+    <input type="radio" name="gender" value="male" required>
+    male
+</label>
+<label>
+    <input type="radio" name="gender" value="female" required>
+    female
+</label>
+<label>
+    <input type="radio" name="gender" value="other" required>
+    other
+</label>
+        </div>
+
+        <label>
+            skills
+            <div class="checkbox">
+                <label>
+    <input type="checkbox" name="skills" value="css" required>
+    css
+</label>
+ <label>
+    <input type="checkbox" name="skills" value="java" required>
+    java
+</label>
+
+ <label>
+    <input type="checkbox" name="skills" value="c++" required>
+    c++
+</label>
+            </div>
+        </label>
+        
+     </form>
+    </div>
+</body>
+</html>
