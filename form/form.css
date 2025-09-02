@@ -1,32 +1,42 @@
 body{
+    background-image: url(https://imgs.search.brave.com/HOCvkJk2hWRaCC-DAbpNW_qqT-BAUZb6z6z7-1h0zMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VlL2Jl/LzhhL2VlYmU4YTcz/YTdlZWQ5NGRmYzJh/OTZjYTQ2OTllNGI4/LmpwZw);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
   display: flex;
     justify-content: center;
-  height: 120vh;
+  min-height: 120vh;
+  /* instead of fixed hieght you can use it */
   margin: 0;
   align-items: center;
   
 }
 
-button:hover{
+#button{
+    text-align: center;
+    background-color: brown;
+}
+#button:hover{
+    animation: backwards;
     resize: vertical;
     color: aqua;
-    background-color: red;
-    border: 50cap;
-    animation: forwards;
-align-items: center;
-text-align: center;
+    background-color: bisque;
 }
 .message{
     color: brown;
     background-color: aqua;
 }
 .container{
-    background-color: aliceblue;
+    background-image: url(https://imgs.search.brave.com/uqd6vSnqfbIFoKzhD7C9JSOO1Cf322IVxL9pSsMtevU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZW5u/Z2FnZS13b3JkcHJl/c3MuczMuYW1hem9u/YXdzLmNvbS91cGxv/YWRzLzIwMTgvMDkv/Q29sb3JmdWwtQ2ly/Y2xlLVNpbXBsZS1C/YWNrZ3JvdW5kLUlt/YWdlLTEuanBn);
+    background-size: cover;
+    backface-visibility: initial;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px;
-    width: 700px;
+    width: 600px;
+   font-size: 20px;
+   color: rgb(213, 226, 226);
+
+   
 }
 label{
     display: block;
@@ -40,5 +50,14 @@ border-radius: 8px;
 border: 1px solid bisque;
 margin-bottom: 15px;
 padding: 10px;
-width: 100px;
+width: 200px;
+  color: rgb(3, 3, 1);
+}
+
+#start{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: crimson;
+    text-shadow: 100cm;
 }
