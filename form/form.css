@@ -25,6 +25,7 @@ body{
     resize: vertical;
     color: aqua;
     background-color: bisque;
+    border: 10;
 }
 .message{
     color: brown;

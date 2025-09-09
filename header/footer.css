@@ -51,7 +51,8 @@ body{
     animation: backwards;
     resize: vertical;
     color: aqua;
-    background-color: bisque;
+    
+    transform: scale(1.05);
 }
 .message{
     color: brown;
