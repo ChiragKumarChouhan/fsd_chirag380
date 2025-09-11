@@ -3,6 +3,7 @@
     background-color:#7091E6;
     overflow: hidden;
     border-radius: 1cap;
+    margin: 0;
 
 
 }
@@ -93,4 +94,10 @@ width: 200px;
     text-transform: uppercase;
     color: crimson;
     text-shadow: 100cm;
+}
+
+.footer{
+background-color: #a690a6;
+text-align: center;
+padding: 16px 10px;
 }
